@@ -1,0 +1,39 @@
+{
+  "name": "vue-movie",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode test",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.1",
+    "axios": "^0.18.1",
+    "better-scroll": "^1.15.2",
+    "core-js": "^2.6.5",
+    "lib-flexible": "^0.3.2",
+    "mockjs": "^1.0.1-beta3",
+    "px2rem-loader": "^0.1.9",
+    "vue": "^2.6.10",
+    "vue-awesome": "^3.5.1",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "description": "+ 安装依赖\r ```shell\r     npm install lib-flexible –-save\r     npm install postocss-pxtorem -dev\r ```\r + 添加meta\r ```html\r     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://liuyameng@192.160.0.200:29418/vue-movie-qinglong.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
